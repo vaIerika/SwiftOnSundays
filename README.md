@@ -12,11 +12,23 @@
 
 Projects                            | UIKit  | SwiftUI
 :---                                |  :---: |   :---:
-An iOS Memory App                          |    +   |     +
+Memory App (iOS)                    |    +   |     +
+Inner Peace (iPad)                  |    +   |     -
+
 to be continued...                  |    /   |     /
 
 
 
+
+<br/>
+
+## Inner Peace 
+
+**Discussed topics:**
+- Resizing text due to its length 
+- Adding a shadow to the text (+ rendering an image)
+- Sharing the chosen quote 
+- Sending notifications 
 
 <br/>
 
