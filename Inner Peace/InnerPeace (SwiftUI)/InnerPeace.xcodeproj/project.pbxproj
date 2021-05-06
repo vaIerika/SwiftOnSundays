@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8856B1626442ED70007DA2E /* InnerPeaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856B1526442ED70007DA2E /* InnerPeaceApp.swift */; };
+		B8856B1826442ED70007DA2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856B1726442ED70007DA2E /* ContentView.swift */; };
+		B8856B1A26442ED80007DA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8856B1926442ED80007DA2E /* Assets.xcassets */; };
+		B8856B1D26442ED80007DA2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8856B1C26442ED80007DA2E /* Preview Assets.xcassets */; };
+		B8856B2626442FA70007DA2E /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = B8856B2426442FA70007DA2E /* quotes.json */; };
+		B8856B2726442FA70007DA2E /* pictures.json in Resources */ = {isa = PBXBuildFile; fileRef = B8856B2526442FA70007DA2E /* pictures.json */; };
+		B8856B2D264430170007DA2E /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856B2C264430170007DA2E /* Quote.swift */; };
+		B8856B2F264430220007DA2E /* Bundle-Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856B2E264430220007DA2E /* Bundle-Decoding.swift */; };
+		B8856B31264430450007DA2E /* Date+Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856B30264430450007DA2E /* Date+Future.swift */; };
+		B8856B3326444AA20007DA2E /* ShareSheetRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856B3226444AA20007DA2E /* ShareSheetRepresentable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8856B1226442ED70007DA2E /* InnerPeace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnerPeace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8856B1526442ED70007DA2E /* InnerPeaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerPeaceApp.swift; sourceTree = "<group>"; };
+		B8856B1726442ED70007DA2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B8856B1926442ED80007DA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8856B1C26442ED80007DA2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B8856B1E26442ED80007DA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8856B2426442FA70007DA2E /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		B8856B2526442FA70007DA2E /* pictures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pictures.json; sourceTree = "<group>"; };
+		B8856B2C264430170007DA2E /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quote.swift; path = "../../InnerPeace (UIKit)/InnerPeace/Quote.swift"; sourceTree = "<group>"; };
+		B8856B2E264430220007DA2E /* Bundle-Decoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bundle-Decoding.swift"; path = "../../InnerPeace (UIKit)/InnerPeace/Bundle-Decoding.swift"; sourceTree = "<group>"; };
+		B8856B30264430450007DA2E /* Date+Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Future.swift"; path = "../../InnerPeace (UIKit)/InnerPeace/Date+Future.swift"; sourceTree = "<group>"; };
+		B8856B3226444AA20007DA2E /* ShareSheetRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetRepresentable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8856B0F26442ED70007DA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8856B0926442ED70007DA2E = {
+			isa = PBXGroup;
+			children = (
+				B8856B1426442ED70007DA2E /* InnerPeace */,
+				B8856B1326442ED70007DA2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8856B1326442ED70007DA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8856B1226442ED70007DA2E /* InnerPeace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8856B1426442ED70007DA2E /* InnerPeace */ = {
+			isa = PBXGroup;
+			children = (
+				B8856B1526442ED70007DA2E /* InnerPeaceApp.swift */,
+				B8856B1726442ED70007DA2E /* ContentView.swift */,
+				B8856B3226444AA20007DA2E /* ShareSheetRepresentable.swift */,
+				B8856B2C264430170007DA2E /* Quote.swift */,
+				B8856B2E264430220007DA2E /* Bundle-Decoding.swift */,
+				B8856B30264430450007DA2E /* Date+Future.swift */,
+				B8856B1926442ED80007DA2E /* Assets.xcassets */,
+				B8856B1E26442ED80007DA2E /* Info.plist */,
+				B8856B2526442FA70007DA2E /* pictures.json */,
+				B8856B2426442FA70007DA2E /* quotes.json */,
+				B8856B1B26442ED80007DA2E /* Preview Content */,
+			);
+			path = InnerPeace;
+			sourceTree = "<group>";
+		};
+		B8856B1B26442ED80007DA2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B8856B1C26442ED80007DA2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8856B1126442ED70007DA2E /* InnerPeace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8856B2126442ED80007DA2E /* Build configuration list for PBXNativeTarget "InnerPeace" */;
+			buildPhases = (
+				B8856B0E26442ED70007DA2E /* Sources */,
+				B8856B0F26442ED70007DA2E /* Frameworks */,
+				B8856B1026442ED70007DA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InnerPeace;
+			productName = InnerPeace;
+			productReference = B8856B1226442ED70007DA2E /* InnerPeace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8856B0A26442ED70007DA2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B8856B1126442ED70007DA2E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = B8856B0D26442ED70007DA2E /* Build configuration list for PBXProject "InnerPeace" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8856B0926442ED70007DA2E;
+			productRefGroup = B8856B1326442ED70007DA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8856B1126442ED70007DA2E /* InnerPeace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8856B1026442ED70007DA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8856B2726442FA70007DA2E /* pictures.json in Resources */,
+				B8856B1D26442ED80007DA2E /* Preview Assets.xcassets in Resources */,
+				B8856B1A26442ED80007DA2E /* Assets.xcassets in Resources */,
+				B8856B2626442FA70007DA2E /* quotes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8856B0E26442ED70007DA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8856B2F264430220007DA2E /* Bundle-Decoding.swift in Sources */,
+				B8856B31264430450007DA2E /* Date+Future.swift in Sources */,
+				B8856B3326444AA20007DA2E /* ShareSheetRepresentable.swift in Sources */,
+				B8856B1826442ED70007DA2E /* ContentView.swift in Sources */,
+				B8856B2D264430170007DA2E /* Quote.swift in Sources */,
+				B8856B1626442ED70007DA2E /* InnerPeaceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B8856B1F26442ED80007DA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8856B2026442ED80007DA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8856B2226442ED80007DA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InnerPeace/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DY52YYPUP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InnerPeace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.InnerPeace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B8856B2326442ED80007DA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InnerPeace/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DY52YYPUP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InnerPeace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.InnerPeace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8856B0D26442ED70007DA2E /* Build configuration list for PBXProject "InnerPeace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8856B1F26442ED80007DA2E /* Debug */,
+				B8856B2026442ED80007DA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8856B2126442ED80007DA2E /* Build configuration list for PBXNativeTarget "InnerPeace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8856B2226442ED80007DA2E /* Debug */,
+				B8856B2326442ED80007DA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8856B0A26442ED70007DA2E /* Project object */;
+}

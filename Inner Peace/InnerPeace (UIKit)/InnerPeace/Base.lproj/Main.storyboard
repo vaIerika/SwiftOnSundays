@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InnerPeace" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M34-hc-nVR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NEu-pz-dA4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g15-AT-qVw">
+                                <rect key="frame" x="290" y="56" width="88" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.46529120641038907" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="88" id="TT5-Sb-jGW"/>
+                                    <constraint firstAttribute="height" constant="44" id="xY4-NI-Bhv"/>
+                                </constraints>
+                                <state key="normal" title="Share">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zmz-i5-3Us"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="g15-AT-qVw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="3q2-Zy-S80"/>
+                            <constraint firstItem="NEu-pz-dA4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8zk-25-qzH"/>
+                            <constraint firstAttribute="top" secondItem="M34-hc-nVR" secondAttribute="top" id="9vd-Uk-pxW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NEu-pz-dA4" secondAttribute="trailing" id="UOx-Y3-mbM"/>
+                            <constraint firstItem="M34-hc-nVR" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="bgf-Sk-ogZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="NEu-pz-dA4" secondAttribute="top" constant="44" id="ekD-DU-xaw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g15-AT-qVw" secondAttribute="trailing" constant="36" id="fAB-Bh-LEP"/>
+                            <constraint firstItem="M34-hc-nVR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hK0-iB-Gef"/>
+                            <constraint firstItem="NEu-pz-dA4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="hfD-Pf-rzx"/>
+                            <constraint firstItem="g15-AT-qVw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="la0-Dh-6bl"/>
+                            <constraint firstAttribute="trailing" secondItem="M34-hc-nVR" secondAttribute="trailing" id="psK-DO-qqz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="background" destination="M34-hc-nVR" id="oW3-0t-eqy"/>
+                        <outlet property="quote" destination="NEu-pz-dA4" id="tKA-y4-khX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95.652173913043484" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

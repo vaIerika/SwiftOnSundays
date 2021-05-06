@@ -13,9 +13,8 @@
 Projects                            | UIKit  | SwiftUI
 :---                                |  :---: |   :---:
 Memory App (iOS)                    |    +   |     +
-Inner Peace (iPad)                  |    +   |     -
-
-to be continued...                  |    /   |     /
+Inner Peace (iPad)                  |    +   |     +
+to be continued...                  |    -   |     -
 
 
 
@@ -29,6 +28,27 @@ to be continued...                  |    /   |     /
 - Adding a shadow to the text (+ rendering an image)
 - Sharing the chosen quote 
 - Sending notifications 
+
+<br/>
+
+#### Sending notifications
+The same for both frameworks.
+
+#### Resizing Text View with SwiftUI + shadow
+Text resizing and adding a shadow tasks are quite easier with SwiftUI then with UIKit.
+
+```
+Text(textQuote)
+    .font(.system(size: 1000))
+    .minimumScaleFactor(0.01)
+    .shadow(color: .black, radius: 6, x: 0, y: 3)
+```
+
+#### Issue 1. Representable for UIActivityViewController
+SwiftUI library doesn't have its own view for sharing activity yet.
+
+> **Solution:** Use the functionality of the `UIActivityViewController` with a `UIViewControllerRepresentable`.
+
 
 <br/>
 
